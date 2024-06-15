@@ -75,6 +75,11 @@ const postRoute=require('./routes/posts')
 const commentRoute=require('./routes/comments')
 const likeRoute = require('./routes/likes')
 //database
+app.use(cors({
+    origin: ["https://deploy.mern.lwhq.vercel.app"],
+    methods: ["POST", "GET"],
+    credentials: true
+}));w
 const connectDB=async()=>{
     try{
         await mongoose.connect(process.env.MONGO_URL)
