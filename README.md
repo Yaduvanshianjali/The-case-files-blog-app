@@ -1,5 +1,7 @@
 # BLOG-APP
 
+**Check out the live demo of the application [here](https://main--verdant-lebkuchen-704293.netlify.app/).**
+
 Welcome to the BLOG-APP! This is a full-featured blogging application where users can register, log in, customize their blogs, integrate with social media, and much more.
 
 ## Features
