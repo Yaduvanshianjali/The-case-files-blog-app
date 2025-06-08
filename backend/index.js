@@ -75,7 +75,7 @@ const postRoute=require('./routes/posts')
 const commentRoute=require('./routes/comments')
 const likeRoute = require('./routes/likes')
 //database
-const contactRoutes=require('./routes/contactRoutes').default
+const contactRoutes=require('./routes/contactRoutes')
 app.use(cors({
     origin: ["https://deploy.mern.lwhq.vercel.app"],
     methods: ["POST", "GET"],

@@ -92,7 +92,7 @@ import { ThemeProvider } from './context/ThemeContext'
 import {ThemeProviderAndSwitcher} from './context/ThemeContext';
 import MyBlogs from './pages/MyBlogs'
 import Contact from "./pages/Contact";
-
+import About from './pages/About'
 const App = () => {
   return (
       <UserContextProvider>
@@ -105,6 +105,7 @@ const App = () => {
       <Route exact path="/register" element={<Register/>}/>
       <Route exact path="/write" element={<CreatePost/>}/>
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element ={<About/>}></Route>
       <Route exact path="/posts/post/:id" element={<PostDetails/>}/>
       <Route exact path="/edit/:id" element={<EditPost/>}/>
       <Route exact path="/myblogs/:id" element={<MyBlogs/>}/>

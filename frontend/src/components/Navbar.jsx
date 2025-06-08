@@ -119,7 +119,7 @@ const Navbar = () => {
 
         <ul className="hidden md:flex md:space-x-9 mx-8 px-30">
         <Link to="/allposts"> <li>All posts</li></Link>
-            <li><a href="#">About</a></li>
+             <Link to="/about"><li className="hover:text-blue-500 cursor-pointer">About</li></Link>
           <Link to="/contact"> <li>Contact</li></Link>
         </ul>
 
